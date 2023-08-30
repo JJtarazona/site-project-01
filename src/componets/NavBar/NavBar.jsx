@@ -4,7 +4,6 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
   Input,
   DropdownItem,
   DropdownTrigger,
@@ -12,7 +11,9 @@ import {
   DropdownMenu,
   Avatar,
 } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import PathRoutes from "../../helpers/Routes.helpers";
 // import { SearchIcon } from "./SearchIcon.jsx";
 
 export default function NavBarC() {
@@ -30,13 +31,20 @@ export default function NavBarC() {
             </Link>
           </NavbarItem>
           <NavbarItem isActive>
-            <Link href="#" aria-current="page" color="secondary">
+            <Link to={PathRoutes.HOME} aria-current="page" color="secondary">
               Pre-Agendamiento
             </Link>
           </NavbarItem>
           <NavbarItem>
             <Link color="foreground" href="#">
               Historias Clinicas
+            </Link>
+          </NavbarItem>
+          <NavbarItem>
+            <Link>
+            <Link color="foreground" to={PathRoutes.RELNEU}>
+              Relaciones            
+            </Link>
             </Link>
           </NavbarItem>
         </NavbarContent>

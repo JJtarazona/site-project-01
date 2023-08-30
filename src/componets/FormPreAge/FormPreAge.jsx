@@ -41,6 +41,32 @@ export default function FormPreAge() {
             labelPlacement="outside"
           />
         </div>
+        <div className="flex flex-row">
+          <Input
+            type="number"
+            label="FONO"
+            placeholder="1"
+            labelPlacement="outside"
+          />
+                    <Input
+            type="number"
+            label="TEO"
+            placeholder="1"
+            labelPlacement="outside"
+          />
+                              <Input
+            type="number"
+            label="FISIO"
+            placeholder="1"
+            labelPlacement="outside"
+          />
+                                        <Input
+            type="number"
+            label="PSICO"
+            placeholder="1"
+            labelPlacement="outside"
+          />
+        </div>
       </div>
     </div>
   );
