@@ -209,6 +209,7 @@
     "postcss-selector-parser": "^6.0.13",
     "postcss-value-parser": "^4.2.0",
     "prelude-ls": "^1.2.1",
+    "primereact": "^9.6.2",
     "prop-types": "^15.8.1",
     "punycode": "^2.3.0",
     "queue-microtask": "^1.2.3",

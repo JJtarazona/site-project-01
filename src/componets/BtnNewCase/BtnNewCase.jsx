@@ -42,7 +42,7 @@ export default function BtnNewCase() {
         </Button>
       </div>
       {/* Componente Modal */}
-      <Modal backdrop={"blur"} isOpen={isOpen} onClose={onClose}>
+      <Modal size={"4xl"} backdrop={"blur"} isOpen={isOpen} onClose={onClose}>
         <ModalContent>
           {/* Función de renderizado */}
           {(onClose) => (

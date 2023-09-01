@@ -2,10 +2,14 @@ import React from "react";
 import TablePreAge from "../TablePreAge/TablePreAge";
 import BtnNewCase from "../BtnNewCase/BtnNewCase";
 import Paginated from "../Paginated/Paginated";
+import CardInfo from "../CardInfo/CardInfo";
 
 function Home() {
   return (
-    <div >
+    <div>
+      <div className="flex justify-center mt-4">
+        <CardInfo />
+      </div>
       <div className="flex flex-row-reverse m-4 ">
         <BtnNewCase />
       </div>
@@ -15,7 +19,7 @@ function Home() {
       </div>
 
       <div className="flex m-4">
-      <Paginated/>
+        <Paginated />
       </div>
     </div>
   );
